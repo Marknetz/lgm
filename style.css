@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFBFA;
+    margin: 0;
+    padding: 0;
+    color: #001F3F;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #001F3F;
+    padding: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.search-container {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    width: 100%;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.user-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.card {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 0;
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 5px 20px 25px 20px;
+}
+
+.card-content h2, .section-title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #001F3F;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #001F3F;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #001F3F;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.veja-mais {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.veja-mais a {
+    color: #001F3F;
+    text-decoration: none;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    font-size: 16px;
+}
